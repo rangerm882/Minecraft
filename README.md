@@ -1,1 +1,5 @@
-# go-minecraft-1.5.2-
+import mc
+
+world = mc.World(...)
+world.set_block(x, y, z, mc.DIRT)
+mc.run(world)
